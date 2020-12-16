@@ -24,7 +24,7 @@ endfunction()
 # Eigen
 function(finite_diff_download_eigen)
     finite_diff_download_project(eigen
-        GIT_REPOSITORY https://gitlab.com/libeigen/eigen.git
+        GIT_REPOSITORY https://github.com/eigenteam/eigen-git-mirror.git
         GIT_TAG        3.3.7
     )
 endfunction()
